@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Suite">
+  <test thread-count="5" name="Test">
+	  <parameter name="Browser" value="Chrome"></parameter>
+	  <classes>
+		  <class name="tests.BurgerMenu_Tests"/>
+		  <class name="tests.Cart_Page_Tests"/>
+		  <class name="tests.Checkout_Page_Tests"/>
+		  <class name="tests.Home_Page_Tests"/>
+		  <class name="tests.Login_Page_Tests"/>
+		  <class name="tests.Static_Pages_Tests"/>
+		  <class name="tests."></class>
+	  </classes>
+  </test> <!-- Test -->
+</suite> <!-- Suite -->
